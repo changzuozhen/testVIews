@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface testViewViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UIView *subview;
+@property (weak, nonatomic) IBOutlet UILabel *label;
 
 @end
